@@ -1,2 +1,5 @@
 kubectl apply -f pod.yml
-kubectl port-forward pod/hello-world 8080:80
+cat pod.yml | kubectl apply -f -
+
+kubectl delete -f pod.yml
+kubectl delete pod hello-world
