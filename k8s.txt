@@ -1,1 +1,1 @@
-kubectl api-resources
+kubectl apply -f deployments/deployment.yml
