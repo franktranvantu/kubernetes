@@ -1,3 +1,5 @@
-kubectl logs hello-world
-kubectl logs hello-world -f
-kubectl logs hello-world -c hello-world
+kubectl exec -it hello-world -- sh
+kubectl exec -it hello-world -- bin/sh
+kubectl exec -it hello-world -c hello-world -- bin/sh
+kubectl exec hello-world -- ls /
+kubectl exec hello-world -- ps aux
