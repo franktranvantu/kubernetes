@@ -1,5 +1,5 @@
-kubectl apply -f pod.yml
-cat pod.yml | kubectl apply -f -
-
-kubectl delete -f pod.yml
-kubectl delete pod hello-world
+kubectl exec -it hello-world -- sh
+kubectl exec -it hello-world -- bin/sh
+kubectl exec -it hello-world -c hello-world -- bin/sh
+kubectl exec hello-world -- ls /
+kubectl exec hello-world -- ps aux
