@@ -1,4 +1,5 @@
-kubectl get replicaset
+kubectl apply -f deployments/deployment.yml
+kubectl get deploy
 kubectl get rs
-kubectl describe rs <replicaset name>
+kubectl get po
 kubectl describe rs
