@@ -1,4 +1,1 @@
 kubectl rollout history deploy hello-world
-kubectl rollout undo deploy hello-world
-kubectl rollout undo deploy hello-world --to-revision=1
-kubectl rollout history deploy hello-world --revision=2
