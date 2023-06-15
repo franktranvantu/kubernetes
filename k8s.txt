@@ -1,2 +1,1 @@
-kubectl get endpoints
-kubectl get ep
+minikube service customer --url
