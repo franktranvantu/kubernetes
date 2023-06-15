@@ -1,2 +1,2 @@
-kubectl rollout pause deploy hello-world
-kubectl rollout resume deploy hello-world
+kubectl get endpoints
+kubectl get ep
