@@ -1,1 +1,2 @@
-kubectl rollout history deploy hello-world
+kubectl rollout pause deploy hello-world
+kubectl rollout resume deploy hello-world
