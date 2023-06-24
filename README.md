@@ -1,1 +1,1 @@
-# Kubernetes
+# Configure Deployment Rolling Strategy
