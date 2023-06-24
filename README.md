@@ -1,4 +1,4 @@
-# Kubernetes
+# Scaling Deployment Replicas
 ```dockerfile
 kubectl apply -f deployments/deployment.yml
 kubectl get deploy
