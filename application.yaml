@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/franktranvantu/kubernetes.git
-    targetRevision: HEAD
+    targetRevision: 02_Create_pods_Using_Declarative_Configuration
     path: yamls
   destination:
     server: https://kubernetes.default.svc
