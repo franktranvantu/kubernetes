@@ -1,1 +1,1 @@
-# Kubernetes
+# Full Stack App exposed with LoadBalancer Service

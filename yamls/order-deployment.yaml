@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: order
-          image: "franktranvantu/order-v1"
+          image: amigoscode/kubernetes:order-v1
           resources:
             limits:
               memory: "128Mi"
