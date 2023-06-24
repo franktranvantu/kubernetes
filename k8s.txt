@@ -1,2 +1,0 @@
-kubectl rollout pause deploy hello-world
-kubectl rollout resume deploy hello-world
