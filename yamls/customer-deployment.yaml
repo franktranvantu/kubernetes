@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: customer
-          image: "franktranvantu/customer-v1"
+          image: amigoscode/kubernets:customer-v1
           resources:
             limits:
               memory: "128Mi"
